@@ -1,0 +1,15 @@
+MESSAGE QUEUE
+To compile, use:
+$ clientmsgqueue.c -o client
+$ servermsgqueue.c -o server
+
+To start the mathematical engine server, use:
+$ ./server
+
+To start client, use:
+$ ./client
+Input the operations as: 
+$ <number> <operator(+,-,*,/,^ only)> <number>
+Read the results in output.dat.
+
+IMPORTANT: output.dat gets refreshed each time server is restarted.

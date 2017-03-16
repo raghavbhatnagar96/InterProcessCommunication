@@ -1,0 +1,11 @@
+Socket
+To compile, use:
+$ gcc server.c -o server
+$ gcc client.c -o client
+
+To start chat server use:
+$ ./server <portnumber>
+To start chat client, use:
+$ ./client <hostname> <portnumber>
+
+To end connection, from client's side, press Ctrl+C.

@@ -1,0 +1,15 @@
+SEMAPHORE
+To compile, use:
+$ gcc sem.c -o sem
+$ gcc read.c -o read
+$ gcc write.c -o write
+
+To create semaphore, use:
+$ ./sem
+Then follow onscreen instructions to destroy semaphore.
+
+To read from datastructure, use:
+$ ./read
+
+To write to datastructure, use:
+$ ./write
